@@ -14,7 +14,9 @@ public class EXMaven {
 		WebDriver driver=new ChromeDriver();
 		WebDriverWait wait = new WebDriverWait(driver,5);
 	
-		driver.get("http://connect.maveric-systems.com");
+	driver.get("http://connect.maveric-systems.com");
+	Thread.sleep(6000);
+		
 	
 		
 
